@@ -43,10 +43,10 @@ int main()
         enviar_comando(comando,serial_fd);
         memset(comando, 0, BUFSIZE);
 
-        printf("DIGITE O NUMERO REFERENTE AO SERVO DA BASE QUE QUEIRA MOVIMENTAR\n");
-        printf("BASE - 0\nOMBRO - 1\nCOTOVELO - 2\nPUNHO - 3\nGARRA - 4\n");
+        printf("DIGITE O NUMERO REFERENTE AO SERVO DA BASE QUE QUEIRA MOVIMENTAR\n\n");
+        printf("BASE - 0\nOMBRO - 1\nCOTOVELO - 2\nPUNHO - 3\nGARRA - 4\n\n");
         printf("USE AS TECLAS A E D PARA MOVIMENTAR O SERVO\n\n");
-        printf("USE A TECLA Z PARA PARAR DE MOVIMENTAR O SERVO ATUAL");
+        printf("USE A TECLA Z PARA PARAR DE MOVIMENTAR O SERVO ATUAL\n\n");
 
 
         do
