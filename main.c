@@ -74,7 +74,7 @@ return z;
 int main()
 {
     double r1,r2,r3;
-    int base = 1500, ombro = 2000, cotovelo = 1500, punho = 2500, garra = 1500;
+    int base = 1500, ombro = 1500, cotovelo = 1500, punho = 1500, garra = 1500;
      r1 = cinedireta1(base,ombro,cotovelo,punho);
 
         r2 = cinedireta2(base,ombro,cotovelo,punho);
